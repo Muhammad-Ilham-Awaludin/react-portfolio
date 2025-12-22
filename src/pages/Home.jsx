@@ -1,5 +1,7 @@
 import profile from "../assets/profile.png";
 import bgLight from "../assets/bg-light.png";
+import profile2 from "../assets/profile.JPG";
+import TextType from '../components/textType/TextType';
 
 export default function Home() {
   return (
@@ -32,11 +34,24 @@ export default function Home() {
               </span>
             </h1>
 
-            <h3 className="fw-semibold text-secondary mt-3">
-              Web Developer
-            </h3>
+            <TextType 
+              text={["Frontend Developer", "Web Developer"]}
+              typingSpeed={110}
+              deletingSpeed={60} 
+              pauseDuration={2000}
+              showCursor={true}
+              cursorCharacter="|"
+              style={{
+                color: "#3b82f6",
+                fontWeight: 800,
+                fontSize: "2.5rem"
+              }}
+            />
+            {/* <h3 className="fw-semibold text-secondary mt-3">
+              Frontend Developer
+            </h3> */}
 
-            <p className="fs-5 text-muted mt-4" style={{ maxWidth: "520px" }}>
+            <p className="fs-5 text-muted mt-2" style={{ maxWidth: "520px" }}>
               A Frontend Developer crafting clean, modern and responsive user interfaces.
             </p>
 
@@ -64,7 +79,7 @@ export default function Home() {
               }}
             >
               <img
-                src={profile}
+                src={profile2}
                 alt="Ilhamawal"
                 className="w-100 h-100"
                 style={{ objectFit: "cover" }}

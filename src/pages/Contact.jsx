@@ -4,6 +4,7 @@ import bgDark from "../assets/bg-dark.png";
 export default function Contact() {
   return (
     <section
+      id="contact"
       className="py-5"
       style={{
         minHeight: "100vh",
@@ -35,7 +36,7 @@ export default function Contact() {
               </p>
 
               {/* Email */}
-              <div className="d-flex align-items-start gap-3 mb-3">
+              <div className="d-flex align-items-start gap-3 mb-3 align-items-center">
                 <div 
                   className="rounded-3 d-flex align-items-center justify-content-center flex-shrink-0"
                   style={{
@@ -44,16 +45,17 @@ export default function Contact() {
                     background: "rgba(59, 130, 246, 0.25)"
                   }}
                 >
-                  <span style={{ fontSize: "1.2rem" }}>✉</span>
+                  {/* <span style={{ fontSize: "1.2rem" }}>✉</span> */}
+                  <a href="#" style={{ fontSize: "20px" }}><i className="fa-solid fa-envelope" style={{ color: "#fff" }}></i></a>
                 </div>
                 <div>
                   <small className="text-secondary d-block mb-1">Email</small>
-                  <p className="mb-0">ziriziarec@nihamawal.com</p>
+                  <p className="mb-0">ilhamawal30@gmail.com</p>
                 </div>
               </div>
 
               {/* Twitter/Nother */}
-              <div className="d-flex align-items-start gap-3 mb-3">
+              <div className="d-flex align-items-start gap-3 mb-3 align-items-center">
                 <div 
                   className="rounded-3 d-flex align-items-center justify-content-center flex-shrink-0"
                   style={{
@@ -62,16 +64,17 @@ export default function Contact() {
                     background: "rgba(59, 130, 246, 0.25)"
                   }}
                 >
-                  <span style={{ fontSize: "1.2rem" }}>🐦</span>
+                  {/* <span style={{ fontSize: "1.2rem" }}></span> */}
+                  <a href="#" style={{ fontSize: "20px" }}><i className="fa-brands fa-instagram" style={{ color: "#fff" }}></i></a>
                 </div>
                 <div>
-                  <small className="text-secondary d-block mb-1">Nother</small>
-                  <p className="mb-0">Swiglnamawal.</p>
+                  <small className="text-secondary d-block mb-1">Instagram</small>
+                  <p className="mb-0">ilham4wal</p>
                 </div>
               </div>
 
               {/* LinkedIn */}
-              <div className="d-flex align-items-start gap-3 mb-4">
+              <div className="d-flex align-items-start gap-3 mb-3 align-items-center">
                 <div 
                   className="rounded-3 d-flex align-items-center justify-content-center flex-shrink-0"
                   style={{
@@ -80,11 +83,12 @@ export default function Contact() {
                     background: "rgba(59, 130, 246, 0.25)"
                   }}
                 >
-                  <span style={{ fontSize: "1.2rem", fontWeight: "bold" }}>in</span>
+                  {/* <span style={{ fontSize: "1.2rem", fontWeight: "bold" }}>in</span> */}
+                  <a href="#" style={{ fontSize: "20px" }}><i className="fa-brands fa-linkedin" style={{ color: "#fff" }}></i></a>
                 </div>
                 <div>
                   <small className="text-secondary d-block mb-1">Linksdin</small>
-                  <p className="mb-0">—</p>
+                  <p className="mb-0">MUHAMMAD ILHAM AWALUDIN</p>
                 </div>
               </div>
 
@@ -104,7 +108,9 @@ export default function Contact() {
                       background: "rgba(59, 130, 246, 0.25)"
                     }}
                   >
-                    <span style={{ fontSize: "1.1rem" }}>🐦</span>
+                    {/* <a href="#" style={{ fontSize: "20px" }}> */}
+                      <i className="fa-brands fa-instagram" style={{ color: "#fff" }}></i>
+                    {/* </a> */}
                   </a>
                   <a 
                     href="#"
@@ -115,7 +121,10 @@ export default function Contact() {
                       background: "rgba(59, 130, 246, 0.25)"
                     }}
                   >
-                    <span style={{ fontSize: "1.1rem", fontWeight: "bold" }}>in</span>
+                    {/* <span style={{ fontSize: "1.1rem", fontWeight: "bold" }}>in</span> */}
+                    {/* <a href="#" style={{ fontSize: "20px" }}> */}
+                      <i className="fa-brands fa-linkedin" style={{ color: "#fff" }}></i>
+                    {/* </a> */}
                   </a>
                 </div>
               </div>

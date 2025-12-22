@@ -25,7 +25,7 @@ const CardNav = ({
       return;
     }
 
-    const navbarHeight = 80; // sesuaikan tinggi navbar kamu
+    const navbarHeight = 80;
     const yPosition =
       el.getBoundingClientRect().top +
       window.pageYOffset -
@@ -173,10 +173,24 @@ const CardNav = ({
             <span className="logo-text">{logoText}</span>
           </div>
 
+          {/* <button
+            href="/cv-ilham-awaludin.pdf"
+            type="button"
+            className="card-nav-cta-button"
+            style={{ backgroundColor: buttonBgColor, color: buttonTextColor }}
+          >
+            Download CV
+          </button> */}
           <button
             type="button"
             className="card-nav-cta-button"
             style={{ backgroundColor: buttonBgColor, color: buttonTextColor }}
+            onClick={() => {
+              const link = document.createElement("a");
+              link.href = "/CV-MUHAMMAD-ILHAM-AWALUDIN.pdf";
+              link.download = "CV-MUHAMMAD-ILHAM-AWALUDIN.pdf";
+              link.click();
+            }}
           >
             Download CV
           </button>

@@ -3,6 +3,7 @@ import React from "react";
 export default function Projects() {
   return (
     <section
+      id="projects"
       className="py-5"
       style={{
         background: "linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)",
@@ -38,8 +39,7 @@ export default function Projects() {
               Portfolio Website
             </h3>
             <p className="mb-4" style={{ color: "#64748b", fontSize: "1.05rem", lineHeight: "1.8" }}>
-              A personal portfolio website showcasing my projects, skills, and
-              experience with responsive design and clean UI.
+              Sebuah website portofolio pribadi yang menampilkan proyek, keterampilan, dan pengalaman saya dengan desain responsif serta tampilan antarmuka yang bersih dan modern.
             </p>
 
             <ul className="list-unstyled mb-4">
@@ -74,7 +74,7 @@ export default function Projects() {
               </div>
             </ul>
 
-            <div className="d-flex gap-3">
+            {/* <div className="d-flex gap-3 justify-content-center">
               <a 
                 href="#" 
                 className="btn px-4 py-2"
@@ -104,7 +104,7 @@ export default function Projects() {
               >
                 Source Code
               </a>
-            </div>
+            </div> */}
           </div>
 
           <div className="col-md-6">
@@ -128,11 +128,10 @@ export default function Projects() {
         <div className="row align-items-center mb-5 pb-5 flex-md-row-reverse">
           <div className="col-md-6 mb-4 mb-md-0 ps-md-5">
             <h3 className="fw-bold mb-4" style={{ fontSize: "2rem", color: "#1e293b" }}>
-              E-Commerce Platform
+              Web Shop
             </h3>
             <p className="mb-4" style={{ color: "#64748b", fontSize: "1.05rem", lineHeight: "1.8" }}>
-              A full-featured e-commerce platform with payment integration,
-              admin dashboard, and optimized performance.
+              Sebuah website toko online yang menampilkan katalog produk, detail produk, dan tampilan antarmuka yang modern dengan desain responsif serta fokus pada kenyamanan pengguna.
             </p>
 
             <ul className="list-unstyled mb-4">
@@ -140,14 +139,14 @@ export default function Projects() {
                 <div className="col-6 mb-2">
                   <li style={{ color: "#475569", fontSize: "1rem" }}>
                     <span style={{ color: "#10b981", marginRight: "10px", fontSize: "1.2rem" }}>✓</span>
-                    React.js
+                    Laravel
                   </li>
                 </div>
 
                 <div className="col-6 mb-2">
                   <li style={{ color: "#475569", fontSize: "1rem" }}>
                     <span style={{ color: "#10b981", marginRight: "10px", fontSize: "1.2rem" }}>✓</span>
-                    Bootstrap 5
+                    Bootstrap
                   </li>
                 </div>
 
@@ -167,7 +166,7 @@ export default function Projects() {
               </div>
             </ul>
 
-            <div className="d-flex gap-3">
+            {/* <div className="d-flex gap-3 justify-content-center">
               <a 
                 href="#" 
                 className="btn px-4 py-2"
@@ -197,7 +196,7 @@ export default function Projects() {
               >
                 Source Code
               </a>
-            </div>
+            </div> */}
           </div>
 
           <div className="col-md-6">
@@ -221,11 +220,10 @@ export default function Projects() {
         <div className="row align-items-center">
           <div className="col-md-6 mb-4 mb-md-0 pe-md-5">
             <h3 className="fw-bold mb-4" style={{ fontSize: "2rem", color: "#1e293b" }}>
-              Task Management App
+              Web Pengaduan Masyarakat
             </h3>
             <p className="mb-4" style={{ color: "#64748b", fontSize: "1.05rem", lineHeight: "1.8" }}>
-              A collaborative task management app with real-time updates,
-              drag-and-drop interface, and team collaboration.
+              Website untuk menyampaikan laporan dan keluhan masyarakat secara online dengan tampilan modern dan responsif.
             </p>
 
             <ul className="list-unstyled mb-4">
@@ -233,14 +231,14 @@ export default function Projects() {
                 <div className="col-6 mb-2">
                   <li style={{ color: "#475569", fontSize: "1rem" }}>
                     <span style={{ color: "#10b981", marginRight: "10px", fontSize: "1.2rem" }}>✓</span>
-                    React.js
+                    Laravel
                   </li>
                 </div>
 
                 <div className="col-6 mb-2">
                   <li style={{ color: "#475569", fontSize: "1rem" }}>
                     <span style={{ color: "#10b981", marginRight: "10px", fontSize: "1.2rem" }}>✓</span>
-                    Bootstrap 5
+                    Bootstrap
                   </li>
                 </div>
 
@@ -260,7 +258,7 @@ export default function Projects() {
               </div>
             </ul>
 
-            <div className="d-flex gap-3">
+            {/* <div className="d-flex gap-3 justify-content-center">
               <a 
                 href="#" 
                 className="btn px-4 py-2"
@@ -290,7 +288,7 @@ export default function Projects() {
               >
                 Source Code
               </a>
-            </div>
+            </div> */}
           </div>
 
           <div className="col-md-6">

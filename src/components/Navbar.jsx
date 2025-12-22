@@ -20,8 +20,8 @@ const Navbar = () => {
       bgColor: "#170D27",
       textColor: "#fff",
       links: [
-        { label: "Featured", ariaLabel: "Featured Projects" },
-        { label: "Case Studies", ariaLabel: "Project Case Studies" }
+        { label: "Featured Projects", targetId: "projects" },
+        // { label: "Case Studies", ariaLabel: "Project Case Studies" }
       ]
     },
     {
@@ -29,25 +29,33 @@ const Navbar = () => {
       bgColor: "#271E37", 
       textColor: "#fff",
       links: [
-        { label: "Email", ariaLabel: "Email us" },
-        { label: "Instagram", ariaLabel: "Instagram" },
-        { label: "LinkedIn", ariaLabel: "LinkedIn" }
+        { label: "Contact", targetId: "contact" },
+        { label: "Send Message", targetId: "contact" },
+        // { label: "LinkedIn", ariaLabel: "LinkedIn" }
       ]
     }
   ];
 
   return (
-    <CardNav
-      logo={logo}
-      logoAlt="Company Logo"
-      logoText="Ilhamawal"
-      items={items}
-      baseColor="#fff"
-      menuColor="#000"
-      buttonBgColor="#111"
-      buttonTextColor="#fff"
-      ease="power3.out"
-    />
+    <div
+      style={{
+        position: "sticky",
+        top: 20,
+        zIndex: 9999,
+      }}
+    >
+      <CardNav
+        logo={logo}
+        logoAlt="Company Logo"
+        logoText="Ilhamawal"
+        items={items}
+        baseColor="#fff"
+        menuColor="#000"
+        buttonBgColor="#111"
+        buttonTextColor="#fff"
+        ease="power3.out"
+      />
+    </div>
   );
 };
 

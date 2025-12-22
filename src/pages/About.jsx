@@ -258,7 +258,7 @@ export default function About() {
                 />
               </div>
               <div className="card-body p-4 text-white">
-                <span className="badge mb-2">2024</span>
+                <span className="badge mb-2">2023</span>
                 <h5 className="fw-bold">Dicoding Frontend Expert</h5>
                 <p className="text-muted mb-2">Dicoding Indonesia</p>
                 <p className="card-text">
@@ -280,9 +280,9 @@ export default function About() {
                 />
               </div>
               <div className="card-body p-4 text-white">
-                <span className="badge mb-2">2023</span>
+                <span className="badge mb-2">2024</span>
                 <h5 className="fw-bold">UI / UX Design</h5>
-                <p className="text-muted mb-2">Online Course</p>
+                <p className="text-muted mb-2">Dicoding Indonesia</p>
                 <p className="card-text">
                   Learned UI/UX fundamentals including wireframing, prototyping,
                   usability testing, and design systems.
@@ -302,9 +302,9 @@ export default function About() {
                 />
               </div>
               <div className="card-body p-4 text-white">
-                <span className="badge mb-2">2023</span>
+                <span className="badge mb-2">2025</span>
                 <h5 className="fw-bold">UI / UX Design</h5>
-                <p className="text-muted mb-2">Online Course</p>
+                <p className="text-muted mb-2">PKL</p>
                 <p className="card-text">
                   Learned UI/UX fundamentals including wireframing, prototyping,
                   usability testing, and design systems.
@@ -323,9 +323,9 @@ export default function About() {
                 />
               </div>
               <div className="card-body p-4 text-white">
-                <span className="badge mb-2">2023</span>
+                <span className="badge mb-2">2025</span>
                 <h5 className="fw-bold">UI / UX Design</h5>
-                <p className="text-muted mb-2">Online Course</p>
+                <p className="text-muted mb-2">MySkill</p>
                 <p className="card-text">
                   Learned UI/UX fundamentals including wireframing, prototyping,
                   usability testing, and design systems.

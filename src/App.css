@@ -68,13 +68,14 @@
 }
 
 .certificate-card img {
-  height: 200px;
-  object-fit: cover;
-  transition: transform 0.3s ease;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: none;
 }
 
 .certificate-card:hover img {
-  transform: scale(1.1);
+  transform: none;
 }
 
 .certificate-card .badge {
@@ -83,6 +84,7 @@
 }
 
 .certificate-card .card-text {
+  /* color: black; */
   font-size: 0.9rem;
   line-height: 1.6;
   opacity: 0.9;
@@ -90,4 +92,14 @@
 
 .text-secondary {
   text-align: start;
+}
+
+.mb-3 .form-control::placeholder {
+  color: gray;
+  opacity: 1;
+}
+
+.mb-4 .form-control::placeholder {
+  color: gray;
+  opacity: 1;
 }

@@ -28,11 +28,10 @@ export default function Footer() {
             </div>
 
             <p className="text-secondary mb-2">
-              UI/UX Designer & Web Developer.
+              Frontend Developer.
             </p>
             <p className="text-secondary small">
-              I design and build stunning websites that prioritize user
-              experience.
+              A Frontend Developer crafting clean, modern and responsive user interfaces.
             </p>
           </div>
 
@@ -42,12 +41,12 @@ export default function Footer() {
             <ul className="list-unstyled">
               <li className="mb-2">
                 <a href="#" className="text-secondary text-decoration-none">
-                  Company
+                  About Me
                 </a>
               </li>
               <li>
                 <a href="#" className="text-secondary text-decoration-none">
-                  Case Studies
+                  Experience
                 </a>
               </li>
             </ul>
@@ -59,14 +58,14 @@ export default function Footer() {
             <ul className="list-unstyled">
               <li className="mb-2">
                 <a href="#" className="text-secondary text-decoration-none">
-                  Practices
+                  Featured Projects
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#" className="text-secondary text-decoration-none">
                   Case Studies
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
 
@@ -75,10 +74,10 @@ export default function Footer() {
             <h6 className="text-white fw-semibold mb-3">Contact</h6>
             <ul className="list-unstyled text-secondary small">
               <li className="mb-2">
-                Email: erickson.reign@gmail.com
+                Email: ilhamawal30@gmail.com
               </li>
               <li>
-                Twitter: @ilhamawal
+                Phone Number: 085715823600
               </li>
             </ul>
           </div>
@@ -89,7 +88,7 @@ export default function Footer() {
             <ul className="list-unstyled">
               <li className="mb-2">
                 <a href="#" className="text-secondary text-decoration-none">
-                  2 Poster
+                  Instagram
                 </a>
               </li>
               <li>
@@ -106,7 +105,7 @@ export default function Footer() {
         <hr className="border-light opacity-25 my-4" />
 
         <p className="text-center text-secondary small mb-0">
-          © 2024 Ilhamawal. All rights reserved.
+          © 2025 MUHAMMAD ILHAM AWALUDIN. All rights reserved.
         </p>
       </div>
     </footer>
