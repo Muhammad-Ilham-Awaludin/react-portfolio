@@ -1,6 +1,7 @@
 .card-nav-container {
   position: absolute;
-  top: 0.5rem;
+  /* top: 10rem; */
+  top: 0;
   left: 50%;
   transform: translateX(-50%);
   width: 90%;

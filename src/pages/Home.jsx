@@ -7,14 +7,18 @@ export default function Home() {
   return (
     <section
       className="d-flex align-items-center justify-content-center"
-      style={{
-        width: "98.8vw",
-        minHeight: "100vh",
-        backgroundImage: `url(${bgLight})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        padding: "80px 20px",
-      }}
+  style={{
+    backgroundImage: `url(${bgLight})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    padding: "80px 20px",
+    minHeight: "100vh",
+  }}
+      // style={{
+      //   background: "linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)",
+      //   paddingTop: "100px",
+      //   paddingBottom: "100px"
+      // }}
     >
       <div className="container">
         <div className="row align-items-center g-5">
@@ -57,9 +61,9 @@ export default function Home() {
 
             {/* BUTTONS */}
             <div className="d-flex flex-column flex-sm-row gap-3 mt-4 justify-content-center justify-content-md-start">
-              <button className="btn btn-primary px-4 py-2 fw-semibold shadow">
+              <a href="#contact" className="btn btn-primary px-4 py-2 fw-semibold shadow">
                 Contact Me
-              </button>
+              </a>
               {/* <button className="btn btn-outline-primary px-4 py-2 fw-semibold">
                 Contact Me
               </button> */}
