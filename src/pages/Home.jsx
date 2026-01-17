@@ -21,10 +21,10 @@ export default function Home() {
       // }}
     >
       <div className="container">
-        <div className="row align-items-center g-5">
-          
+        <div className="row align-items-center g-5 justify-content-center">
+
           {/* TEXT CONTENT */}
-          <div className="col-12 col-md-6 text-center text-md-start">
+          <div className="col-10 col-md-6 text-center text-md-start">
             <h1 className="display-4 fw-bold text-dark">
               Hi, I'm{" "}
               <span
@@ -38,40 +38,33 @@ export default function Home() {
               </span>
             </h1>
 
-            <TextType 
+            <TextType
               text={["Frontend Developer", "Web Developer"]}
               typingSpeed={110}
-              deletingSpeed={60} 
+              deletingSpeed={60}
               pauseDuration={2000}
               showCursor={true}
               cursorCharacter="|"
               style={{
                 color: "#3b82f6",
                 fontWeight: 800,
-                fontSize: "2.5rem"
+                fontSize: "2.5rem",
               }}
             />
-            {/* <h3 className="fw-semibold text-secondary mt-3">
-              Frontend Developer
-            </h3> */}
 
-            <p className="fs-5 text-muted mt-2" style={{ maxWidth: "520px" }}>
+            <p className="fs-5 text-muted mt-2 mx-auto mx-md-0" style={{ maxWidth: "520px" }}>
               A Frontend Developer crafting clean, modern and responsive user interfaces.
             </p>
 
-            {/* BUTTONS */}
             <div className="d-flex flex-column flex-sm-row gap-3 mt-4 justify-content-center justify-content-md-start">
               <a href="#contact" className="btn btn-primary px-4 py-2 fw-semibold shadow">
                 Contact Me
               </a>
-              {/* <button className="btn btn-outline-primary px-4 py-2 fw-semibold">
-                Contact Me
-              </button> */}
             </div>
           </div>
 
           {/* IMAGE */}
-          <div className="col-12 col-md-6 d-flex justify-content-center">
+          <div className="col-10 col-md-5 d-flex justify-content-center justify-content-md-end">
             <div
               style={{
                 width: "330px",
@@ -92,6 +85,7 @@ export default function Home() {
           </div>
 
         </div>
+
       </div>
     </section>
   );
