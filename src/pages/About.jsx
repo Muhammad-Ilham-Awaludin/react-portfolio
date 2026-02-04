@@ -4,8 +4,46 @@ import bgLight from "../assets/bg-light.png";
 import solid from "../assets/dicoding-solid.png";
 import web from "../assets/dicoding-web.png";
 import myskill from "../assets/myskill.png";
+// import { Marquee } from "@/components/ui/marquee";
+import { MarqueeDemo } from "@/components/MarqueeDemo";
 
 export default function About() {
+
+  const certificates = [
+    {
+      img: web,
+      year: "2023",
+      title: "Belajar Dasar Pemrograman Web",
+      provider: "Dicoding Indonesia",
+      desc:
+        "Completed advanced frontend training focused on React, performance optimization, and modern best practices.",
+    },
+    {
+      img: solid,
+      year: "2024",
+      title: "Belajar Prinsip Pemrograman SOLID",
+      provider: "Dicoding Indonesia",
+      desc:
+        "Focused on building scalable UI, clean architecture, and best practices.",
+    },
+    {
+      img: pkl,
+      year: "2025",
+      title: "Sertifikasi PKL",
+      provider: "PT Berdhaya Gemilang Mandiri",
+      desc:
+        "Learned React hooks, state management, and performance optimization.",
+    },
+    {
+      img: myskill,
+      year: "2025",
+      title: "Wordpress Introduction",
+      provider: "MySkill",
+      desc:
+        "Learned React hooks, state management, and performance optimization.",
+    },
+  ]
+
   return (
     <section
       style={{
@@ -57,141 +95,8 @@ export default function About() {
             </h3>
           </div>
 
-          {/* FRONTEND */}
-          <div className="col-lg-3 col-md-6 mb-4">
-            <div
-              className="card h-100 border-0 shadow"
-              style={{ borderRadius: "15px", transition: "transform 0.3s" }}
-              onMouseEnter={(e) => (e.currentTarget.style.transform = "translateY(-10px)")}
-              onMouseLeave={(e) => (e.currentTarget.style.transform = "translateY(0)")}
-            >
-              <div className="card-body p-4">
-                <h5 className="fw-bold mb-3" style={{ color: "#3b82f6" }}>
-                  Web Development
-                </h5>
-                <ul className="list-unstyled">
-                  <li className="mb-2 d-flex align-items-center">
-                    <span className="dot" />
-                    HTML
-                  </li>
-                  <li className="mb-2 d-flex align-items-center">
-                    <span className="dot" />
-                    CSS
-                  </li>
-                  <li className="mb-2 d-flex align-items-center">
-                    <span className="dot" />
-                    JavaScript
-                  </li>
-                  <li className="mb-2 d-flex align-items-center">
-                    <span className="dot" />
-                    PHP
-                  </li>
-                  <li className="mb-2 d-flex align-items-center">
-                    <span className="dot" />
-                    React JS
-                  </li>
-                  <li className="mb-2 d-flex align-items-center">
-                    <span className="dot" />
-                    Laravel
-                  </li>
-                  <li className="mb-2 d-flex align-items-center">
-                    <span className="dot" />
-                    Boostrap
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
+          <MarqueeDemo />
 
-          {/* UI / UX */}
-          <div className="col-lg-3 col-md-6 mb-4">
-            <div
-              className="card h-100 border-0 shadow"
-              style={{ borderRadius: "15px", transition: "transform 0.3s" }}
-              onMouseEnter={(e) => (e.currentTarget.style.transform = "translateY(-10px)")}
-              onMouseLeave={(e) => (e.currentTarget.style.transform = "translateY(0)")}
-            >
-              <div className="card-body p-4">
-                <h5 className="fw-bold mb-3" style={{ color: "#3b82f6" }}>
-                  Mobile Development
-                </h5>
-                <ul className="list-unstyled">
-                  <li className="mb-2 d-flex align-items-center">
-                    <span className="dot" />
-                    Flutter
-                  </li>
-                  <li className="mb-2 d-flex align-items-center">
-                    <span className="dot" />
-                    Dart
-                  </li>
-                  {/* <li className="mb-2 d-flex align-items-center">
-                    <span className="dot" />
-                    Prototyping
-                  </li> */}
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          {/* UI / UX */}
-          <div className="col-lg-3 col-md-6 mb-4">
-            <div
-              className="card h-100 border-0 shadow"
-              style={{ borderRadius: "15px", transition: "transform 0.3s" }}
-              onMouseEnter={(e) => (e.currentTarget.style.transform = "translateY(-10px)")}
-              onMouseLeave={(e) => (e.currentTarget.style.transform = "translateY(0)")}
-            >
-              <div className="card-body p-4">
-                <h5 className="fw-bold mb-3" style={{ color: "#3b82f6" }}>
-                  UI / UX
-                </h5>
-                <ul className="list-unstyled">
-                  <li className="mb-2 d-flex align-items-center">
-                    <span className="dot" />
-                    Figma
-                  </li>
-                  {/* <li className="mb-2 d-flex align-items-center">
-                    <span className="dot" />
-                    Laravel
-                  </li> */}
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          {/* TOOLS */}
-          <div className="col-lg-3 col-md-6 mb-4">
-            <div
-              className="card h-100 border-0 shadow"
-              style={{ borderRadius: "15px", transition: "transform 0.3s" }}
-              onMouseEnter={(e) => (e.currentTarget.style.transform = "translateY(-10px)")}
-              onMouseLeave={(e) => (e.currentTarget.style.transform = "translateY(0)")}
-            >
-              <div className="card-body p-4">
-                <h5 className="fw-bold mb-3" style={{ color: "#3b82f6" }}>
-                  Tools
-                </h5>
-                <ul className="list-unstyled">
-                  <li className="mb-2 d-flex align-items-center">
-                    <span className="dot" />
-                    Git & GitHub
-                  </li>
-                  <li className="mb-2 d-flex align-items-center">
-                    <span className="dot" />
-                    VS Code
-                  </li>
-                  <li className="mb-2 d-flex align-items-center">
-                    <span className="dot" />
-                    GitLab
-                  </li>
-                  <li className="mb-2 d-flex align-items-center">
-                    <span className="dot" />
-                    Trello
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
         </div>
 
         {/* Experience */}
@@ -248,91 +153,27 @@ export default function About() {
           </div>
 
           {/* CERTIFICATE 1 */}
-          <div className="col-lg-4 col-md-6 mb-4">
-            <div className="card certificate-card h-100 border-0 shadow-lg">
-              <div className="img-wrapper">
-                <img
-                  src={web}
-                  alt="Dicoding Frontend Expert"
-                  className="card-img-top"
-                />
-              </div>
-              <div className="card-body p-4 text-white">
-                <span className="badge mb-2">2023</span>
-                <h5 className="fw-bold">Dicoding Frontend Expert</h5>
-                <p className="text-muted mb-2">Dicoding Indonesia</p>
-                <p className="card-text">
-                  Completed advanced frontend training focused on React, performance
-                  optimization, and modern best practices.
-                </p>
-              </div>
-            </div>
-          </div>
+          {certificates.map((item, index) => (
+            <div key={index} className="col-lg-4 col-md-6 mb-4">
+              <div className="card certificate-card h-100 border-0 shadow-lg">
+                <div className="img-wrapper">
+                  <img
+                    src={item.img}
+                    alt={item.title}
+                    className="card-img-top"
+                  />
+                </div>
 
-          {/* CERTIFICATE 2 */}
-          <div className="col-lg-4 col-md-6 mb-4">
-            <div className="card certificate-card h-100 border-0 shadow-lg">
-              <div className="img-wrapper">
-                <img
-                  src={solid}
-                  alt="UI UX Design"
-                  className="card-img-top"
-                />
-              </div>
-              <div className="card-body p-4 text-white">
-                <span className="badge mb-2">2024</span>
-                <h5 className="fw-bold">UI / UX Design</h5>
-                <p className="text-muted mb-2">Dicoding Indonesia</p>
-                <p className="card-text">
-                  Learned UI/UX fundamentals including wireframing, prototyping,
-                  usability testing, and design systems.
-                </p>
+                <div className="card-body p-4">
+                  <span className="badge mb-2">{item.year}</span>
+                  <h5 className="fw-bold">{item.title}</h5>
+                  <p className="text-muted mb-2">{item.provider}</p>
+                  <p className="card-text">{item.desc}</p>
+                </div>
               </div>
             </div>
-          </div>
-
-          {/* CERTIFICATE 3 */}
-          <div className="col-lg-4 col-md-6 mb-4">
-            <div className="card certificate-card h-100 border-0 shadow-lg">
-              <div className="img-wrapper">
-                <img
-                  src={pkl}
-                  alt="UI UX Design"
-                  className="card-img-top"
-                />
-              </div>
-              <div className="card-body p-4 text-white">
-                <span className="badge mb-2">2025</span>
-                <h5 className="fw-bold">UI / UX Design</h5>
-                <p className="text-muted mb-2">PKL</p>
-                <p className="card-text">
-                  Learned UI/UX fundamentals including wireframing, prototyping,
-                  usability testing, and design systems.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-lg-4 col-md-6 mb-4">
-            <div className="card certificate-card h-100 border-0 shadow-lg">
-              <div className="img-wrapper">
-                <img
-                  src={myskill}
-                  alt="UI UX Design"
-                  className="card-img-top"
-                />
-              </div>
-              <div className="card-body p-4 text-white">
-                <span className="badge mb-2">2025</span>
-                <h5 className="fw-bold">UI / UX Design</h5>
-                <p className="text-muted mb-2">MySkill</p>
-                <p className="card-text">
-                  Learned UI/UX fundamentals including wireframing, prototyping,
-                  usability testing, and design systems.
-                </p>
-              </div>
-            </div>
-          </div>
+          ))}
+          
         </div>
       </div>
     </section>
