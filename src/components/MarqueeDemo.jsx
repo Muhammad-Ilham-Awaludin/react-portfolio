@@ -2,16 +2,16 @@ import { cn } from "@/lib/utils"
 import { Marquee } from "@/components/ui/marquee"
 
 const technologies = [
-  { img: "public/assets/html.png", name: "HTML5" },
-  { img: "public/assets/css.png", name: "CSS3" },
-  { img: "public/assets/javascript.png", name: "JavaScript" },
-  { img: "public/assets/react.svg", name: "React" },
-  { img: "public/assets/php.png", name: "PHP" },
-  { img: "public/assets/bootstrap.png", name: "Bootstrap" },
-  { img: "public/assets/laravel.png", name: "Laravel" },
-  { img: "public/assets/flutter.png", name: "Flutter" },
-  { img: "public/assets/dart.png", name: "Dart" },
-  { img: "public/assets/mongo.png", name: "MongoDB" },
+  { img: "/assets/html.png", name: "HTML5" },
+  { img: "/assets/css.png", name: "CSS3" },
+  { img: "/assets/javascript.png", name: "JavaScript" },
+  { img: "/assets/react.svg", name: "React" },
+  { img: "/assets/php.png", name: "PHP" },
+  { img: "/assets/bootstrap.png", name: "Bootstrap" },
+  { img: "/assets/laravel.png", name: "Laravel" },
+  { img: "/assets/flutter.png", name: "Flutter" },
+  { img: "/assets/dart.png", name: "Dart" },
+  { img: "/assets/mongo.png", name: "MongoDB" },
 ]
 
 const firstRow = technologies.slice(0, technologies.length / 2)
